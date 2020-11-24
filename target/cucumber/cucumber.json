@@ -1,0 +1,142 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7439000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should able to visit \"https://opensource-demo.orangehrmlive.com/index.php/auth/login\" login of website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://opensource-demo.orangehrmlive.com/index.php/auth/login\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.org.steps.LoginSteps.i_should_able_to_visit_login_of_website(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-18T11:49:42.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6304000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.org.hooks.hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-into-orangehrm-website;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 2240000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.org.hooks.hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 556000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should able to enter username \"Admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.org.steps.LoginSteps.i_should_able_to_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3109000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should able to click on login button",
+            "match": {
+              "location": "com.org.steps.LoginSteps.i_should_able_to_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34698000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should able to see dashboard page \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.org.steps.LoginSteps.i_should_able_to_see_dashboard_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@LoginWithValidCredentials"
+          }
+        ]
+      }
+    ],
+    "name": "Login into orangeHRM website",
+    "description": "",
+    "id": "login-into-orangehrm-website",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

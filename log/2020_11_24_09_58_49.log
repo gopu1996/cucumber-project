@@ -1,0 +1,42 @@
+INFO - Before navigating to: 'qa https://opensource-demo.orangehrmlive.com'
+INFO - Navigated to:'qa https://opensource-demo.orangehrmlive.com'
+DEBUG - Navigate to qa  url
+INFO - Trying to find Element By : By.cssSelector: [name^='txtUsername']
+INFO - Found Element By : By.cssSelector: [name^='txtUsername']
+INFO - Entering a text Admin
+INFO - Trying to find Element By : By.cssSelector: [name^='txtPassword']
+INFO - Found Element By : By.cssSelector: [name^='txtPassword']
+INFO - Entering a text admin123
+INFO - Trying to find Element By : By.cssSelector: [name^='Submit']
+INFO - Found Element By : By.cssSelector: [name^='Submit']
+INFO - Trying to click on: [[ChromeDriver: chrome on WINDOWS (89032207dde938b84f8c9b98ece41a51)] -> css selector: [name^='Submit']]
+INFO - Clicked on: [[ChromeDriver: chrome on WINDOWS (89032207dde938b84f8c9b98ece41a51)] -> css selector: [name^='Submit']]
+INFO - Trying to find Element By : By.cssSelector: .head h1
+INFO - Found Element By : By.cssSelector: .head h1
+INFO - Trying to find Element By : By.cssSelector: #menu_admin_viewAdminModule
+INFO - Found Element By : By.cssSelector: #menu_admin_viewAdminModule
+INFO - Trying to click on: [[ChromeDriver: chrome on WINDOWS (89032207dde938b84f8c9b98ece41a51)] -> css selector: #menu_admin_viewAdminModule]
+INFO - Clicked on: [[ChromeDriver: chrome on WINDOWS (89032207dde938b84f8c9b98ece41a51)] -> css selector: #menu_admin_viewAdminModule]
+INFO - Trying to find Element By : By.cssSelector: [name^='btnAdd']
+INFO - Found Element By : By.cssSelector: [name^='btnAdd']
+INFO - Trying to click on: [[ChromeDriver: chrome on WINDOWS (89032207dde938b84f8c9b98ece41a51)] -> css selector: [name^='btnAdd']]
+INFO - Clicked on: [[ChromeDriver: chrome on WINDOWS (89032207dde938b84f8c9b98ece41a51)] -> css selector: [name^='btnAdd']]
+INFO - Trying to find Element By : By.cssSelector: [name^='systemUser[employeeName][empName]']
+INFO - Found Element By : By.cssSelector: [name^='systemUser[employeeName][empName]']
+INFO - Entering a text Garry White
+INFO - Trying to find Element By : By.cssSelector: [name^='systemUser[userName]']
+INFO - Found Element By : By.cssSelector: [name^='systemUser[userName]']
+INFO - Entering a text White_123
+INFO - Trying to find Element By : By.cssSelector: [name='systemUser[password]']
+INFO - Found Element By : By.cssSelector: [name='systemUser[password]']
+INFO - Entering a text White@12345
+INFO - Trying to find Element By : By.cssSelector: [name='systemUser[confirmPassword]']
+INFO - Found Element By : By.cssSelector: [name='systemUser[confirmPassword]']
+INFO - Entering a text White@12345
+INFO - Trying to find Element By : By.cssSelector: .addbutton
+INFO - Found Element By : By.cssSelector: .addbutton
+INFO - Trying to click on: [[ChromeDriver: chrome on WINDOWS (89032207dde938b84f8c9b98ece41a51)] -> css selector: .addbutton]
+INFO - Clicked on: [[ChromeDriver: chrome on WINDOWS (89032207dde938b84f8c9b98ece41a51)] -> css selector: .addbutton]
+INFO - Trying to find Element By : By.cssSelector: [name='searchSystemUser[userName]']
+INFO - Trying to find Element By : By.cssSelector: [name='_search']
+INFO - Trying to find Element By : By.cssSelector: #resultTable .odd a
